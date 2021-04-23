@@ -1,0 +1,74 @@
+<!--css + html = front end stuff-->
+<!--asterisk indicates everything is included-->
+<!--a x 10^2 + b x 10^1 + c x 10^0-->
+
+<!DOCTYPE HTML> <!--indicates it is html-->
+<!--DOM elements = h1-h6 + buttons and such-->
+<html> <!--two main tags, head and body-->
+    <head>
+        <!--libraries-->
+        <!--info about page + files-->
+        <title>
+            My Portfolio Page
+        </title>
+        <link rel = 'stylesheet'
+              type = 'text/css'
+              href = 'style.css'>
+    </head>
+
+    <body>
+        <!--sketch
+        //content to be displayed on the webpage-->
+        <div class = 'header'> <!--parent class-->
+            <h1>Sangini Biswas</h1>
+            <div class = 'menu'> <!--sub class-->
+                <a href = 'index.html'>Projects</a> <!--anchor tags creates hyperlinks. attribute: href-->
+                <a href = 'aboutme.html'>About Me</a>
+            </div>
+        </div>
+
+        <h2>Games:</h2>
+        <p>Games use p5.js + matter.js libraries in javascript:</p>
+        
+        <div class = 'grid'>
+            <!--img scr placeholder-->
+            <div class = 'item'>
+                <a href = 'https://clarkaxel6.github.io/capstone-wreckingball/'><img src = 'wrecking ball.jpg' width = 350 height = 300></a>
+                <p>wrecking ball</p>
+            </div>
+
+            <div class = 'item'>
+                <a href = 'https://clarkaxel6.github.io/p30-but-its-actually-p30/index.html'><img src = 'tower.jpg' width = 300 height = 300></a>
+                <p>tower siege</p>
+            </div>
+
+            <div class = 'item'>
+                <a href = 'https://clarkaxel6.github.io/p27index.html'><img src = 'newtons cradle.jpg' width = 300 height = 300></a>
+                <p>newton's cradle</p>
+            </div>
+
+            <div class = 'item'>
+                <a href = 'https://clarkaxel6.github.io/c30/index.html'><img src = 'angry birds.png' width = 300 height = 300></a>
+                <p>angry birds</p>
+            </div>
+
+            <div class = 'item'>
+                <a href = 'https://clarkaxel6.github.io/p35/index.html'><img src = 'parachute.jpg' width = 350 height = 320></a>
+                <p>parachute</p>
+            </div>
+
+            <div class = 'item'>
+                <a href = 'https://clarkaxel6.github.io/p41/index.html'><img src = 'fruit catcher.jpg' width = 400 height = 300></a>
+                <p>fruit catcher</p>
+            </div>
+        </div>
+
+        <div class = 'footer'>
+            <!--img attribute = src, w, h, etc.-->
+            <a href = '#'><img src = 'facebook.png' width = 50 height = 50></a>
+            <a href = '#'><img src = 'instagram.png' width = 70 height = 50></a>
+            <a href = '#'><img src = 'youtube.png' width = 50 height = 50></a>
+        </div>
+
+    </body>
+</html>
